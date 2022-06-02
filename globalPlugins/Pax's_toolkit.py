@@ -1,9 +1,7 @@
 import globalPluginHandler
-import gui
 import scriptHandler
 import random
 import ui
-import config
 import winVersion
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
     @scriptHandler.script(gesture="kb:NVDA+control+D", description="rolls the dice", category="Pax's toolkit")
